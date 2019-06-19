@@ -37,7 +37,7 @@ class ViewController: UIViewController {
     let animationDuration: Double = 3.5
     
     let animationStartTime = Date()
-    
+
     @objc func handleUpdate() {
         
         let now = Date()
@@ -53,7 +53,7 @@ class ViewController: UIViewController {
             self.countingLabel.text = "\(value)"
         }
         
-        
+
         // second
 //        self.countingLabel.text = "\(startValue)"
 //        startValue += 1
